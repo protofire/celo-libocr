@@ -3,9 +3,9 @@ package serialization
 import (
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/protocol"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
 
 	"google.golang.org/protobuf/proto"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

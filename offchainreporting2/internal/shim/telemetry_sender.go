@@ -3,10 +3,10 @@ package shim
 import (
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/serialization"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/serialization"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
 )
 
 type TelemetrySender struct {

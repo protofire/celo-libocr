@@ -3,11 +3,11 @@ package managed
 import (
 	"context"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/config"
+	"github.com/protofire/celo-libocr/offchainreporting/types"
+	"github.com/protofire/celo-libocr/subprocesses"
 )
 
 // RunManagedBootstrapNode runs a "managed" bootstrap node. It handles

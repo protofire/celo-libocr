@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/celo-org/celo-blockchain/common"
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/protofire/celo-libocr/commontypes"
 	"golang.org/x/crypto/curve25519"
 )
 

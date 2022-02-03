@@ -3,7 +3,7 @@ package protocol
 import (
 	"container/heap"
 
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
 )
 
 // Type safe wrapper around MinHeapTimeToContractReportInternal

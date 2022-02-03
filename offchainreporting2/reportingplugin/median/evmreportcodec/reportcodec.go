@@ -6,8 +6,8 @@ import (
 	"sort"
 
 	"github.com/celo-org/celo-blockchain/accounts/abi"
-	"github.com/smartcontractkit/libocr/offchainreporting2/reportingplugin/median"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/offchainreporting2/reportingplugin/median"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
 )
 
 var reportTypes = getReportTypes()

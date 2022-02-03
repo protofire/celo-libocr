@@ -8,9 +8,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/subprocesses"
 )
 
 var _ commontypes.BinaryNetworkEndpoint = &ocrEndpointV1V2{}

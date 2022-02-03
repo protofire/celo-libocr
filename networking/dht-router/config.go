@@ -6,9 +6,9 @@ import (
 
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/protocol"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	ocr1types "github.com/protofire/celo-libocr/offchainreporting/types"
 )
 
 type DHTNodeConfig struct {

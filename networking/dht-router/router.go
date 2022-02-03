@@ -11,8 +11,8 @@ import (
 
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/subprocesses"
 
 	"github.com/libp2p/go-libp2p-core/peer"
 	p2pprotocol "github.com/libp2p/go-libp2p-core/protocol"

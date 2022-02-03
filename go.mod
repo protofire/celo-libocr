@@ -19,7 +19,7 @@ require (
 	github.com/multiformats/go-multiaddr v0.5.0
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
-	github.com/smartcontractkit/libocr v0.0.0-20220125200954-5b957c834276
+	github.com/protofire/celo-libocr v0.0.0-20220125200954-5b957c834276
 	go.uber.org/multierr v1.7.0
 	golang.org/x/crypto v0.0.0-20220131195533-30dcbda58838
 	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11

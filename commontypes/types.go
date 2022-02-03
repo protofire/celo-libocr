@@ -3,7 +3,7 @@ package commontypes
 import (
 	"bytes"
 	"fmt"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	ragetypes "github.com/protofire/celo-libocr/ragep2p/types"
 	"net"
 	"strings"
 

@@ -9,14 +9,14 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/protofire/celo-libocr/commontypes"
 
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	nettypes "github.com/smartcontractkit/libocr/networking/types"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/ragep2p"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	nettypes "github.com/protofire/celo-libocr/networking/types"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/ragep2p"
+	ragetypes "github.com/protofire/celo-libocr/ragep2p/types"
+	"github.com/protofire/celo-libocr/subprocesses"
 )
 
 type ragep2pDiscovererState int

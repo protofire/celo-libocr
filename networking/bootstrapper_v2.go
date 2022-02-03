@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	ocr2types "github.com/smartcontractkit/libocr/offchainreporting2/types"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	ocr2types "github.com/protofire/celo-libocr/offchainreporting2/types"
+	ragetypes "github.com/protofire/celo-libocr/ragep2p/types"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/internal/loghelper"
 )
 
 var (

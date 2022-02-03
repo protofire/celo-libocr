@@ -10,14 +10,14 @@ import (
 
 	"go.uber.org/multierr"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	nettypes "github.com/smartcontractkit/libocr/networking/types"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	nettypes "github.com/protofire/celo-libocr/networking/types"
+	ragetypes "github.com/protofire/celo-libocr/ragep2p/types"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/subprocesses"
 )
 
 type incomingMessage struct {

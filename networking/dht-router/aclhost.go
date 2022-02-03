@@ -11,8 +11,8 @@ import (
 	"github.com/libp2p/go-libp2p-core/peerstore"
 	"github.com/libp2p/go-libp2p-core/protocol"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
 )
 
 type ACL interface {

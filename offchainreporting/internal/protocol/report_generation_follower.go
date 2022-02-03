@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/signature"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/protocol/observation"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/signature"
+	"github.com/protofire/celo-libocr/offchainreporting/types"
 )
 
 func (repgen *reportGenerationState) followerReportContext() ReportContext {

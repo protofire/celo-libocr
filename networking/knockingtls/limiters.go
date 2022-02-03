@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/protofire/celo-libocr/commontypes"
 	"golang.org/x/time/rate"
 )
 

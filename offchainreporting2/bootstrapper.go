@@ -6,11 +6,11 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/managed"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/managed"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/subprocesses"
 )
 
 type BootstrapperArgs struct {

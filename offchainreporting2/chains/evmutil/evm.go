@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/celo-org/celo-blockchain/common"
-	"github.com/smartcontractkit/libocr/gethwrappers2/ocr2aggregator"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/gethwrappers2/ocr2aggregator"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
 )
 
 func SplitSignature(sig []byte) (r, s [32]byte, v byte, err error) {

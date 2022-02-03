@@ -1,6 +1,6 @@
 package ragedisco
 
-import ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+import ragetypes "github.com/protofire/celo-libocr/ragep2p/types"
 
 type connectivityMsgType int
 

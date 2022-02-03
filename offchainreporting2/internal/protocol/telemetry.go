@@ -1,8 +1,8 @@
 package protocol
 
 import (
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
 )
 
 type TelemetrySender interface {

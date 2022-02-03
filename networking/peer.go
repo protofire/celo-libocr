@@ -5,13 +5,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	nettypes "github.com/smartcontractkit/libocr/networking/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	nettypes "github.com/protofire/celo-libocr/networking/types"
 	"go.uber.org/multierr"
 
-	"github.com/smartcontractkit/libocr/internal/configdigesthelper"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	ocr2types "github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/internal/configdigesthelper"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	ocr2types "github.com/protofire/celo-libocr/offchainreporting2/types"
 
 	p2pcrypto "github.com/libp2p/go-libp2p-core/crypto"
 	p2ppeerstore "github.com/libp2p/go-libp2p-core/peerstore"

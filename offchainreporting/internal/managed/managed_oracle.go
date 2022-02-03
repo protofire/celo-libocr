@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/shim"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/config"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/protocol"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/shim"
+	"github.com/protofire/celo-libocr/offchainreporting/types"
+	"github.com/protofire/celo-libocr/subprocesses"
 )
 
 // RunManagedOracle runs a "managed" version of protocol.RunOracle. It handles

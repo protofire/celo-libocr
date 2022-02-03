@@ -14,10 +14,10 @@ import (
 	"github.com/libp2p/go-tcp-transport"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/networking/knockingtls"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/networking/knockingtls"
+	ocr1types "github.com/protofire/celo-libocr/offchainreporting/types"
 )
 
 const (

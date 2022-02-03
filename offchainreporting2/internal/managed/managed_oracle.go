@@ -4,14 +4,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/serialization"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/shim"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/config"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/protocol"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/serialization"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/shim"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/subprocesses"
 	"go.uber.org/multierr"
 )
 

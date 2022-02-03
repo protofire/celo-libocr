@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/config"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
 )
 
 func limits(cfg config.PublicConfig, reportingPluginInfo types.ReportingPluginInfo, maxSigLen int) (types.BinaryNetworkEndpointLimits, error) {

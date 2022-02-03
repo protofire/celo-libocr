@@ -1,10 +1,10 @@
 package serialization
 
 import (
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/protocol"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/protocol/observation"
+	"github.com/protofire/celo-libocr/offchainreporting/internal/serialization/protobuf"
 
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"

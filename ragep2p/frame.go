@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/protofire/celo-libocr/ragep2p/types"
 )
 
 var errWrongLength = fmt.Errorf("frameHeader must have exactly %v bytes", frameHeaderEncodedSize)

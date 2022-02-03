@@ -1,6 +1,6 @@
 package protocol //
 
-import "github.com/smartcontractkit/libocr/commontypes"
+import "github.com/protofire/celo-libocr/commontypes"
 
 // EventToPacemaker is the interface used to pass in-process events to the
 // leader-election protocol.

@@ -8,8 +8,8 @@ import (
 
 	"github.com/celo-org/celo-blockchain/common"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/offchainreporting/types"
 	"golang.org/x/crypto/sha3"
 )
 

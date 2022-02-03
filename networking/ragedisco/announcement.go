@@ -9,12 +9,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/protofire/celo-libocr/commontypes"
+	ragetypes "github.com/protofire/celo-libocr/ragep2p/types"
 
 	"github.com/pkg/errors"
 
-	"github.com/smartcontractkit/libocr/networking/ragedisco/serialization"
+	"github.com/protofire/celo-libocr/networking/ragedisco/serialization"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/pkg/errors"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	ragetypes "github.com/protofire/celo-libocr/ragep2p/types"
 )
 
 func announceAddrs(a ragetypes.Address) ([]ragetypes.Address, error) {

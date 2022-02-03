@@ -5,13 +5,13 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/protocol/persist"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/permutation"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/config"
+	"github.com/protofire/celo-libocr/offchainreporting2/internal/protocol/persist"
+	"github.com/protofire/celo-libocr/offchainreporting2/types"
+	"github.com/protofire/celo-libocr/permutation"
+	"github.com/protofire/celo-libocr/subprocesses"
 	"golang.org/x/crypto/sha3"
 )
 

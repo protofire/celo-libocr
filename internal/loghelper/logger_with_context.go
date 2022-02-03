@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/protofire/celo-libocr/commontypes"
 )
 
 type LoggerWithContext interface {

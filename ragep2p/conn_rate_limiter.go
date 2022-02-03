@@ -4,9 +4,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/ragep2p/internal/ratelimit"
+	"github.com/protofire/celo-libocr/commontypes"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	"github.com/protofire/celo-libocr/ragep2p/internal/ratelimit"
 )
 
 const tlsFactor = 1.5

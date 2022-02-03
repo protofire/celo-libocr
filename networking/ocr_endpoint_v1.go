@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p-core/peerstore"
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/protofire/celo-libocr/commontypes"
 	"golang.org/x/time/rate"
 
 	p2pnetwork "github.com/libp2p/go-libp2p-core/network"
@@ -19,12 +19,12 @@ import (
 	swarm "github.com/libp2p/go-libp2p-swarm"
 	rhost "github.com/libp2p/go-libp2p/p2p/host/routed"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	dhtrouter "github.com/smartcontractkit/libocr/networking/dht-router"
-	"github.com/smartcontractkit/libocr/networking/knockingtls"
-	"github.com/smartcontractkit/libocr/networking/wire"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/protofire/celo-libocr/internal/loghelper"
+	dhtrouter "github.com/protofire/celo-libocr/networking/dht-router"
+	"github.com/protofire/celo-libocr/networking/knockingtls"
+	"github.com/protofire/celo-libocr/networking/wire"
+	"github.com/protofire/celo-libocr/offchainreporting/types"
+	ocr1types "github.com/protofire/celo-libocr/offchainreporting/types"
 )
 
 var (
