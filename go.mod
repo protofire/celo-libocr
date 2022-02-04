@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/celo-org/celo-blockchain v1.5.2
 	github.com/golang/protobuf v1.5.2
-	github.com/leanovate/gopter v0.2.10-0.20210127095200-9abe2343507a
+	github.com/leanovate/gopter v0.2.9
 	github.com/libp2p/go-libp2p v0.17.0
 	github.com/libp2p/go-libp2p-core v0.14.0
 	github.com/libp2p/go-libp2p-kad-dht v0.15.0
@@ -19,7 +19,6 @@ require (
 	github.com/multiformats/go-multiaddr v0.5.0
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
-	github.com/protofire/celo-libocr v0.0.0-20220125200954-5b957c834276
 	go.uber.org/multierr v1.7.0
 	golang.org/x/crypto v0.0.0-20220131195533-30dcbda58838
 	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11
@@ -38,8 +37,7 @@ require (
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
-	github.com/deckarep/golang-set v1.7.1 // indirect
-	github.com/ethereum/go-ethereum v1.10.11 // indirect
+	github.com/deckarep/golang-set v0.0.0-20180603214616-504e848d77ea // indirect
 	github.com/fjl/memsize v0.0.0-20190710130421-bcb5799ab5e5 // indirect
 	github.com/flynn/noise v1.0.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
@@ -48,12 +46,12 @@ require (
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang/snappy v0.0.4 // indirect
+	github.com/golang/snappy v0.0.3 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/graph-gophers/graphql-go v0.0.0-20201113091052-beb923fada29 // indirect
-	github.com/hashicorp/errwrap v1.1.0 // indirect
+	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.5-0.20210104140557-80c98217689d // indirect
 	github.com/hdevalence/ed25519consensus v0.0.0-20201207055737-7fde80a9d5ff // indirect
@@ -71,7 +69,7 @@ require (
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/jbenet/go-temp-err-catcher v0.1.0 // indirect
 	github.com/jbenet/goprocess v0.1.4 // indirect
-	github.com/karalabe/usb v0.0.0-20211005121534-4c5740d64559 // indirect
+	github.com/karalabe/usb v0.0.0-20190919080040-51dc0efba356 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/koron/go-ssdp v0.0.2 // indirect
@@ -107,7 +105,7 @@ require (
 	github.com/marten-seemann/qtls-go1-17 v0.1.0 // indirect
 	github.com/marten-seemann/qtls-go1-18 v0.1.0-beta.1 // indirect
 	github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd // indirect
-	github.com/mattn/go-colorable v0.1.8 // indirect
+	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
@@ -136,12 +134,12 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.30.0 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
-	github.com/prometheus/tsdb v0.10.0 // indirect
-	github.com/rjeczalik/notify v0.9.2 // indirect
+	github.com/prometheus/tsdb v0.7.1 // indirect
+	github.com/rjeczalik/notify v0.9.1 // indirect
 	github.com/rs/cors v1.7.0 // indirect
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible // indirect
 	github.com/spacemonkeygo/spacelog v0.0.0-20180420211403-2296661a0572 // indirect
-	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
+	github.com/syndtr/goleveldb v1.0.1-0.20210305035536-64b5b1c73954 // indirect
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
 	github.com/tklauser/numcpus v0.2.2 // indirect
 	github.com/whyrusleeping/go-keyspace v0.0.0-20160322163242-5b898ac5add1 // indirect
